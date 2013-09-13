@@ -32,6 +32,8 @@ class LocalizationsController extends LocalizationWordsAppController {
         $keywords = $this->__getMsgids($files);
         $domains = $this->__getPluginDomains($pluginAlias);
         $this->__saveDomainKeywords($domains, $keywords, $pluginAlias);
+        $this->Session->setFlash(__d('localization_words', 'Translation files successfuly updated.'),'default', array('class' => 'success'));
+        $this->redirect(array('admin'=>true, 'action' =>'index'));
     }
     //------------------------------------------------------------
     /**
