@@ -1,0 +1,35 @@
+#Line 4 C:\xampp\htdocs\raft-o-amad\app\Plugin\LocalizationWords\Config\bootstrap.php
+msgid "Locales"
+msgstr ""
+
+#====================================================================================================
+#Line 28 C:\xampp\htdocs\raft-o-amad\app\Plugin\LocalizationWords\Controller\LocalizationsController.php
+msgid "Update Locales"
+msgstr ""
+
+#====================================================================================================
+#Line 5 C:\xampp\htdocs\raft-o-amad\app\Plugin\LocalizationWords\View\Localizations\admin_index.ctp
+msgid "Check"
+msgstr ""
+
+#====================================================================================================
+#Line 13 C:\xampp\htdocs\raft-o-amad\app\Plugin\LocalizationWords\View\Localizations\admin_index.ctp
+msgid "Row"
+msgstr ""
+
+#====================================================================================================
+#Line 14 C:\xampp\htdocs\raft-o-amad\app\Plugin\LocalizationWords\View\Localizations\admin_index.ctp
+msgid "Plugins"
+msgstr ""
+
+#====================================================================================================
+#Line 15 C:\xampp\htdocs\raft-o-amad\app\Plugin\LocalizationWords\View\Localizations\admin_index.ctp
+msgid "Actions"
+msgstr ""
+
+#====================================================================================================
+#Line 28 C:\xampp\htdocs\raft-o-amad\app\Plugin\LocalizationWords\View\Localizations\admin_index.ctp
+msgid "Update Domains"
+msgstr ""
+
+#====================================================================================================
