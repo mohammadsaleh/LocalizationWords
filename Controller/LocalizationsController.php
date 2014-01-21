@@ -102,7 +102,7 @@ class LocalizationsController extends LocalizationWordsAppController {
         $space = '[\s]*';
         $coat = '[\'|\"]';
         $domainPattern = $space.$coat.'([\w_-\s,]+)'.$coat.$space;
-        $msgidPattern = $space.$coat.'([\w_-\s,]+)'.$coat.$space;        
+        $msgidPattern = $space.$coat.'([\"\'\w_-\s,]+)'.$coat.$space;        
         
         foreach($files as $file){
             
