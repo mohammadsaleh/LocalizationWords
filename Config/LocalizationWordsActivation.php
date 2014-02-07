@@ -1,7 +1,18 @@
 <?php
+class LocalizationWordsActivation {
+	public function beforeActivation(&$controller) {
+		return true;
+	}
 
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-?>
+	public function onActivation(&$controller) {
+            return true;
+	}
+
+	public function beforeDeactivation(&$controller) {
+		return true;
+	}
+
+	public function onDeactivation(&$controller) {
+            return true;
+	}
+}
